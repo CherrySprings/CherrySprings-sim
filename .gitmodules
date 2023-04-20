@@ -1,0 +1,3 @@
+[submodule "CherrySprings-verilog"]
+	path = CherrySprings-verilog
+	url = https://github.com/CherrySprings/CherrySprings-verilog.git

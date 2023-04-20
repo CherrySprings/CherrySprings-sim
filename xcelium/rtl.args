@@ -1,0 +1,15 @@
+-clean
+-nospecify
+-timescale 1ns/1ps
+-mess
+-access +rwc
+-sv_lib ../difftest/libdifftest.so
++workload=../../riscv-tests-rv64ima/rv64ui-p/rv64ui-p-add.bin
++diff=../../riscv-tests-rv64ima/nemu-multicore/riscv64-nemu-interpreter-so
++dump-wave=vpd
+-sv
+../difftest/vsrc/assert.v
+../difftest/vsrc/ram.v
+../difftest/vsrc/ref.v
+../difftest/vsrc/top.v
+../CherrySprings-verilog/SimTop.v
